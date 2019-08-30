@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <classPathEntry location="E:\maven_repository\mysql\mysql-connector-java\8.0.17\mysql-connector-java-8.0.17.jar" />
+
+    <context id="MySqlTable" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressAllComments" value="false" />
+            <property name="suppressDate" value="true" />
+        </commentGenerator>
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/test_spring_security?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=UTC&amp;zeroDateTimeBehavior=convertToNull&amp;allowMultiQueries=true"
+                        userId="root"
+                        password="debug572750">
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="ind.vijay.demo.bean" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="ind.vijay.demo.mapper"  targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="ind.vijay.demo.dao"  targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <table tableName="role" domainObjectName="Role">
+        </table>
+
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,136 @@
+2019-08-24 01:25:10,448 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 50 - Starting TestSpringSecurityApplication on PC201810182139 with PID 34796 (started by Administrator in E:\私人项目\testDemo\security\Test-spring-security)
+2019-08-24 01:25:10,455 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 647 - No active profile set, falling back to default profiles: default
+2019-08-24 01:25:10,647 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-24 01:25:10,647 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-24 01:25:13,844 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 9000 (http)
+2019-08-24 01:25:13,867 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-9000"]
+2019-08-24 01:25:13,882 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-08-24 01:25:13,882 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-24 01:25:14,014 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-08-24 01:25:14,014 [restartedMain] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 3367 ms
+2019-08-24 01:25:14,350 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2019-08-24 01:25:15,007 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 106 - {dataSource-1} inited
+2019-08-24 01:25:15,551 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/index.html'], []
+2019-08-24 01:25:15,552 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/static/**'], []
+2019-08-24 01:25:15,552 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2019-08-24 01:25:15,552 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-08-24 01:25:15,553 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2019-08-24 01:25:15,553 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/doc.html'], []
+2019-08-24 01:25:15,553 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/docs/**'], []
+2019-08-24 01:25:15,553 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/img/**'], []
+2019-08-24 01:25:15,554 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-08-24 01:25:15,554 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/js/**'], []
+2019-08-24 01:25:15,554 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/css/**'], []
+2019-08-24 01:25:15,554 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-08-24 01:25:15,616 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c45878b, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e9db689, org.springframework.security.web.header.HeaderWriterFilter@18bd2bb3, org.springframework.security.web.authentication.logout.LogoutFilter@6fa81540, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@114648fe, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@11ad9804, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@35fd5c23, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@180afa60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c4e9810, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42aa2caf, org.springframework.security.web.session.SessionManagementFilter@766b2fe3, org.springframework.security.web.access.ExceptionTranslationFilter@4ac0ebc2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e8286fe]
+2019-08-24 01:25:15,828 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-24 01:25:16,248 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-08-24 01:25:16,315 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-9000"]
+2019-08-24 01:25:16,347 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 202 - Tomcat started on port(s): 9000 (http) with context path ''
+2019-08-24 01:25:16,354 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 59 - Started TestSpringSecurityApplication in 6.559 seconds (JVM running for 8.669)
+2019-08-24 01:25:40,851 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-24 01:25:40,852 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-08-24 01:25:40,864 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet 546 - Completed initialization in 11 ms
+2019-08-24 01:35:54,394 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 50 - Starting TestSpringSecurityApplication on PC201810182139 with PID 21052 (started by Administrator in E:\私人项目\testDemo\security\Test-spring-security)
+2019-08-24 01:35:54,408 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 647 - No active profile set, falling back to default profiles: default
+2019-08-24 01:35:54,509 [background-preinit] INFO  o.h.validator.internal.util.Version 21 - HV000001: Hibernate Validator 6.0.17.Final
+2019-08-24 01:35:54,780 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-24 01:35:54,780 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-24 01:35:57,016 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 9000 (http)
+2019-08-24 01:35:57,036 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-9000"]
+2019-08-24 01:35:57,049 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-08-24 01:35:57,050 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-24 01:35:57,186 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-08-24 01:35:57,186 [restartedMain] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 2405 ms
+2019-08-24 01:35:57,511 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2019-08-24 01:35:58,146 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 106 - {dataSource-1} inited
+2019-08-24 01:35:58,679 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/index.html'], []
+2019-08-24 01:35:58,680 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/static/**'], []
+2019-08-24 01:35:58,680 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2019-08-24 01:35:58,681 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-08-24 01:35:58,681 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2019-08-24 01:35:58,681 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/doc.html'], []
+2019-08-24 01:35:58,682 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/docs/**'], []
+2019-08-24 01:35:58,682 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/img/**'], []
+2019-08-24 01:35:58,682 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-08-24 01:35:58,682 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/js/**'], []
+2019-08-24 01:35:58,683 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/css/**'], []
+2019-08-24 01:35:58,683 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-08-24 01:35:58,748 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44df24af, org.springframework.security.web.context.SecurityContextPersistenceFilter@5db229ef, org.springframework.security.web.header.HeaderWriterFilter@3e27c823, org.springframework.security.web.authentication.logout.LogoutFilter@60fd9d09, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57f44414, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2ab9b78e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@317e0cc4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1aeb00f1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73bbe976, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@532b8b74, org.springframework.security.web.session.SessionManagementFilter@438dc9c, org.springframework.security.web.access.ExceptionTranslationFilter@2cfbcdff, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5bc80926]
+2019-08-24 01:35:58,972 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-24 01:35:59,385 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-08-24 01:35:59,451 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-9000"]
+2019-08-24 01:35:59,482 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 202 - Tomcat started on port(s): 9000 (http) with context path ''
+2019-08-24 01:35:59,487 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 59 - Started TestSpringSecurityApplication in 6.212 seconds (JVM running for 9.44)
+2019-08-24 01:53:04,517 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-24 01:53:04,518 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-08-24 01:53:04,534 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet 546 - Completed initialization in 13 ms
+2019-08-24 01:58:28,767 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 50 - Starting TestSpringSecurityApplication on PC201810182139 with PID 23636 (started by Administrator in E:\私人项目\testDemo\security\Test-spring-security)
+2019-08-24 01:58:28,779 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 647 - No active profile set, falling back to default profiles: default
+2019-08-24 01:58:28,860 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-24 01:58:28,860 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-24 01:58:32,859 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 9000 (http)
+2019-08-24 01:58:32,882 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-9000"]
+2019-08-24 01:58:32,899 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-08-24 01:58:32,899 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-24 01:58:33,039 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-08-24 01:58:33,040 [restartedMain] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 4179 ms
+2019-08-24 01:58:33,392 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2019-08-24 01:58:34,070 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 106 - {dataSource-1} inited
+2019-08-24 01:58:34,611 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/index.html'], []
+2019-08-24 01:58:34,612 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/static/**'], []
+2019-08-24 01:58:34,612 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2019-08-24 01:58:34,612 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-08-24 01:58:34,613 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2019-08-24 01:58:34,613 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/doc.html'], []
+2019-08-24 01:58:34,613 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/docs/**'], []
+2019-08-24 01:58:34,614 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/img/**'], []
+2019-08-24 01:58:34,614 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-08-24 01:58:34,614 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/js/**'], []
+2019-08-24 01:58:34,617 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/css/**'], []
+2019-08-24 01:58:34,618 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-08-24 01:58:34,692 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44488dbd, org.springframework.security.web.context.SecurityContextPersistenceFilter@7953bb23, org.springframework.security.web.header.HeaderWriterFilter@52fd6908, org.springframework.security.web.authentication.logout.LogoutFilter@cb291dd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@304ca78c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5b30de66, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@11ed227f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@99e5be4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f17fde6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b252b94, org.springframework.security.web.session.SessionManagementFilter@7298765f, org.springframework.security.web.access.ExceptionTranslationFilter@3448950c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2eb8501e]
+2019-08-24 01:58:34,980 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-24 01:58:35,423 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-08-24 01:58:35,486 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-9000"]
+2019-08-24 01:58:35,517 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 202 - Tomcat started on port(s): 9000 (http) with context path ''
+2019-08-24 01:58:35,523 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 59 - Started TestSpringSecurityApplication in 7.959 seconds (JVM running for 10.202)
+2019-08-24 01:58:50,127 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-24 01:58:50,128 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-08-24 01:58:50,144 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet 546 - Completed initialization in 16 ms
+2019-08-24 01:58:50,604 [http-nio-9000-exec-2] INFO  ind.vijay.demo.service.UserService 63 - authUser: {"accountNonExpired":true,"accountNonLocked":true,"authorities":[{"authority":"super_admin"}],"credentialsNonExpired":true,"enabled":true,"password":"e10adc3949ba59abbe56e057f20f883e","username":"jiurang"}
+2019-08-24 01:58:50,627 [http-nio-9000-exec-2] INFO  ind.vijay.demo.service.UserService 67 - user: {"accountNonExpired":true,"accountNonLocked":true,"authorities":[{"authority":"super_admin"}],"credentialsNonExpired":true,"enabled":true,"id":1,"name":"石久让","password":"e10adc3949ba59abbe56e057f20f883e","roles":[{"description":"所有权限","enabled":true,"id":1,"name":"super_admin","namezh":"超级管路员"}],"user":{"accountNonExpired":true,"accountNonLocked":true,"authorities":[{"authority":"super_admin"}],"credentialsNonExpired":true,"enabled":true,"password":"e10adc3949ba59abbe56e057f20f883e","username":"jiurang"},"username":"jiurang"}
+2019-08-24 02:01:42,630 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 50 - Starting TestSpringSecurityApplication on PC201810182139 with PID 7780 (started by Administrator in E:\私人项目\testDemo\security\Test-spring-security)
+2019-08-24 02:01:42,634 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 647 - No active profile set, falling back to default profiles: default
+2019-08-24 02:01:42,862 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-24 02:01:42,863 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-24 02:01:45,710 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 9000 (http)
+2019-08-24 02:01:45,731 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-9000"]
+2019-08-24 02:01:45,744 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-08-24 02:01:45,744 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-24 02:01:45,884 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-08-24 02:01:45,885 [restartedMain] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 3022 ms
+2019-08-24 02:01:46,268 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2019-08-24 02:01:46,962 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 106 - {dataSource-1} inited
+2019-08-24 02:01:47,495 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/index.html'], []
+2019-08-24 02:01:47,495 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/static/**'], []
+2019-08-24 02:01:47,495 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2019-08-24 02:01:47,496 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-08-24 02:01:47,496 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2019-08-24 02:01:47,496 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/doc.html'], []
+2019-08-24 02:01:47,496 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/docs/**'], []
+2019-08-24 02:01:47,497 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/img/**'], []
+2019-08-24 02:01:47,497 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-08-24 02:01:47,497 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/js/**'], []
+2019-08-24 02:01:47,497 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/css/**'], []
+2019-08-24 02:01:47,498 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-08-24 02:01:47,552 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f2ba265, org.springframework.security.web.context.SecurityContextPersistenceFilter@48b84a3, org.springframework.security.web.header.HeaderWriterFilter@1c2782a3, org.springframework.security.web.authentication.logout.LogoutFilter@54f5622f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@249a3a02, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3225d150, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2a14d9a8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f370dee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bdd8628, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7828df3e, org.springframework.security.web.session.SessionManagementFilter@57811db1, org.springframework.security.web.access.ExceptionTranslationFilter@68a08b53, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47d751ef]
+2019-08-24 02:01:47,773 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-24 02:01:48,222 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-08-24 02:01:48,291 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-9000"]
+2019-08-24 02:01:48,327 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 202 - Tomcat started on port(s): 9000 (http) with context path ''
+2019-08-24 02:01:48,332 [restartedMain] INFO  i.v.d.TestSpringSecurityApplication 59 - Started TestSpringSecurityApplication in 7.317 seconds (JVM running for 9.662)
+2019-08-24 02:01:55,312 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-24 02:01:55,312 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-08-24 02:01:55,326 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet 546 - Completed initialization in 13 ms
+2019-08-24 02:01:55,596 [http-nio-9000-exec-1] INFO  i.v.demo.config.RestSecurityConfig 86 - jiurang  123456
